@@ -10,9 +10,12 @@ body, html{
     background-color: rgb(22, 0, 0);
 }
 
-p {
-    font-size: large;
+div.text p {
+    font-size: larger;
     color: aliceblue;
+    align-self: center;
+    width: 80%;
+    margin: auto;
 }
 
 section.inicio {
@@ -21,7 +24,7 @@ section.inicio {
     display: flex;
 }
 
-div.inicio {
+section.inicio {
     align-items: center;
 }
 
@@ -29,8 +32,13 @@ span.vermelho {
     color: rgb(242, 15, 15);
 }
 
-
-.img_inicio img{
+.img_inicio {
     height: 400px;
     width: 400px;
+}
+
+.img_inicio img{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
 }
